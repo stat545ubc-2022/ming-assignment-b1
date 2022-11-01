@@ -4,6 +4,7 @@ This is the welcome page for Ming Cao's assignment B1. This repo is still under 
 
 ## Table of Contents
 - `Assignment-B1` 
+- `README.md`
 
 ## How to Use
 If you would like to run any of the code that appears in this repository, you can clone or download this repo, then open the desried file in RStudio to run it.
