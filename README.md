@@ -1,10 +1,35 @@
-# STAT545B Assignment B1 (W1 2022)
 
-This is the welcome page for Ming Cao's assignment B1. This repo is still under development and will be updated to include assignment B2 in the future.
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-## Table of Contents
-- `Assignment-B1` 
-- `README.md`
+# ConsecutiveDifference
 
-## How to Use
-If you would like to run any of the code that appears in this repository, you can clone or download this repo, then open the desried file in RStudio to run it.
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of `ConsecutiveDifference` is to provide an easy way for
+calculating the consecutive difference for a sequence of numbers. It
+contains one function called `consecutive_diff()`.
+
+## Installation
+
+You can install the development version of ConsecutiveDifference from
+[GitHub](https://github.com/) with:
+
+``` r
+install.packages("devtools")
+devtools::install_github("https://github.com/stat545ubc-2022/ming-assignment-b1")
+```
+
+## Usage
+
+For instance, given a sequence such as (x1, x2, x3, x4, x5, …),
+`consecutive_diff()` can calculate all the consecutive differences as
+{(x2-x1), (x3-x2), (x4-x3), …}.
+
+``` r
+library(ConsecutiveDifference)
+
+# get the consecutive differences of an input number list
+lst <- c(10,9,6,2,15,7)
+consecutive_diff(lst)
+```

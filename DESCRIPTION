@@ -1,0 +1,13 @@
+Package: ConsecutiveDifference
+Title: Calculate the consecutive difference for a sequence of numbers
+Version: 0.1.0
+Authors@R: 
+    person("Ming", "Cao", , "mingcao54@gmail.com", role = c("aut", "cre"))
+Description: given a sequence such as (x1, x2, x3, x4, x5, ...), consecutive_diff() can calculate all the consecutive differences as {(x2-x1), (x3-x2), (x4-x3), ...}.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
